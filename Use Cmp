@@ -1,0 +1,14 @@
+<c-custom-lookup 
+                    unique-key="Nominee__c" 
+                    obj-name="Contact" 
+                    icon-name="standard:contact" 
+                    label-name="Contact"
+                    display-fields="FirstName, LastName, Email" 
+                    display-format="FirstName LastName (Email)"
+                    onvalueselect={handleSelection} 
+                    placeholder="Search Resource" 
+                    filters={dependentFilters}
+                    without-sharing="true"
+                    >
+                
+                </c-custom-lookup >
